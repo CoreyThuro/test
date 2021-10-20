@@ -1,0 +1,280 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, .card-body>.card-title {
+  font-family:  "Times New Roman", cursive;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+h2 {
+  color: #3046c5;
+}
+
+.card-img-overlay .card-title {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-color: black;
+  color: black;
+}
+
+.jumbotron h2 {
+  color: black;
+}
+
+.navbar-dark {
+  background-color :black;
+}
+
+#jumbo {
+  background-color: white;
+}
+
+#subtext {
+  margin-left: 40px;
+}
+
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body {
+  height: 400px;
+}
+
+.card {
+  color: rgb(49, 49, 49);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px rgb(133, 133, 133);
+  cursor: pointer;
+  background-color:rgb(220, 254, 255);
+  color: black;
+  transition: .5s;
+}
+
+#card_deck {
+  margin-top: 50px;
+}
+
+#img-row {
+  margin-top: 70px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+  margin-left: 5px;
+  border-top: solid #000;
+  padding-top: 50px;
+}
+
+.link {
+  color: black !important;
+}
+
+.link:hover {
+  stroke: white !important;
+  transition: 3s !important;
+}
+
+
+#email_link {
+  color: black;
+}
+
+#email_link:hover {
+  color: rgb(17, 0, 255);
+}
+
+.faq-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+button.accordion {
+  width: 100%;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.accordion:after {
+  font-family: FontAwesome;
+  content: '\f150';
+  font-family: fontawesome;
+  font-size: 18px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: '\f056';
+}
+
+button.accordion:hover,button.accordion.is-open {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+#email {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 200px;
+  width: 400px;
+}
+
+#contact-button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#contact-header {
+  margin-top: 20px;
+}
+
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr {
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-container {
+    border: 2px solid skyblue;
+    position: relative;
+    margin: 50px auto;
+}
+
+.calendar {
+    background-color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar-header {
+    border-bottom: 1px dashed skyblue;
+    font-size: 1.6em;
+}
+
+.calendar-header td {
+    border-spacing: 0;
+    padding-left: 5px;
+}
+
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    height: 40px;
+}
+
+.week-day {
+    font-size: 0.8em;
+}
+
+.day {
+    font-size: 0.8em;
+}
+
+.day {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.current-day {
+    background-color: #4285f4;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: white;
+}
+.selected-day {
+    background-color:yellow;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: black;
+}
+
+.month-popup {
+    position: absolute;
+    padding: 5px;
+    background: white;
+    border: 2px solid skyblue;
+}
+
+.month-popup div {
+    padding: 0.3em;
+}
+
+.nav-month {
+    position: absolute;
+    top: 0.6em;
+    font-size: 0.6em;
+    right:3px;
+}
+
+.prev {
+}
+
+.next {
+}
+
+.editor-year {
+    max-width: 3.6em;
+}
+
+.label-month,
+.label-year {
+    font-size: 0.6em;
+}
+
+.label-month {
+    cursor: pointer;
+}
